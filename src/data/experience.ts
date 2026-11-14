@@ -1,0 +1,6 @@
+export interface Experience { id: number; role: string; company: string; location: string; period: string; points: string[]; color: string }
+export const experiences: Experience[] = [
+  { id: 1, role: "Data Warehousing Intern", company: "Le Orion Informatics Pvt Ltd", location: "Kozhikode", period: "June 2026", points: ["Internship focused on Data Warehousing using Google BigQuery","Implemented BigQuery architecture, data loading, and transformation pipelines","Wrote complex SQL queries for data modeling and optimization","Applied analytical reporting and BI concepts to real project work"], color: "#7C5CFF" },
+  { id: 2, role: "Python Development Intern", company: "Right Soft Options", location: "Kaloor, Kochi", period: "July 2024", points: ["Core Python development with focus on logical problem solving","Built basic application modules using algorithmic thinking","Developed strong foundations in Python best practices"], color: "#22E4FF" },
+  { id: 3, role: "Web Development Intern", company: "Ediglobe", location: "Remote", period: "June – July 2024", points: ["Front-end fundamentals and responsive web design","Collaborated on web components using modern HTML, CSS, JavaScript","Delivered accessible, mobile-first UI components"], color: "#FF3DCB" },
+]

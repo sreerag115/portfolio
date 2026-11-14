@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+dist-ssr/
+
+# Local & temp files
+*.local
+scratch/
+.DS_Store
+tsconfig.tsbuildinfo
